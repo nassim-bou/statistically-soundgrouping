@@ -1,1 +1,10 @@
-
+ dataset = MovieLens
+ alpha = 0.05
+ min_support_group = 15
+ dimension = rating
+ grouping_type = [['year'], ['year']]
+ grouping_value = [["70's"], ["70's"]]
+ agg_type = variance
+ test_args = ['Two-Samples']
+ periods_start = [datetime.datetime(2001, 3, 20, 0, 0), datetime.datetime(2001, 3, 20, 0, 0)] period_arg = [3]
+ top_n=[-1, 20]

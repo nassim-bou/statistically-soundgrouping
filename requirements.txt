@@ -3,3 +3,4 @@ pytest
 scipy==1.6.0
 statsmodels==0.12.1
 matplotlib==3.3.3
+altair==4.1.0

@@ -1,4 +1,3 @@
-# S4
 Our work is a Framework for Statistically-Sound Group Testing,
 that combines coverage  and statistical testing to verify common hypotheses and return interpretable data groups.
 

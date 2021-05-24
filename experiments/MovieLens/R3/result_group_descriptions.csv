@@ -1,0 +1,385 @@
+group1,group2,coverage_gained_1,coverage_gained_2,p-value,n,algorithm,samples
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BY,30.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BY,30.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.0086355785837651,0.0121654501216545,0.0176337992656963,-1,TRAD_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BN,30.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BN,30.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.006908462867012,0.0097323600973236,0.0176337992656963,-1,COVER_G_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,-1,COVER_G_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,COVER_G_BN,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BY,30.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BY,30.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.0086355785837651,0.0121654501216545,0.0176337992656963,25,TRAD_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BN,30.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BN,30.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.006908462867012,0.0097323600973236,0.0176337992656963,25,COVER_G_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,25,COVER_G_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,COVER_G_BN,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BY,30.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BY,30.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.0086355785837651,0.0121654501216545,0.0176337992656963,20,TRAD_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BN,30.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BN,30.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.006908462867012,0.0097323600973236,0.0176337992656963,20,COVER_G_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,20,COVER_G_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,COVER_G_BN,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BY,30.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BY,30.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.0086355785837651,0.0121654501216545,0.0176337992656963,15,TRAD_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BN,30.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BN,30.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.006908462867012,0.0097323600973236,0.0176337992656963,15,COVER_G_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,15,COVER_G_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,COVER_G_BN,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BY,30.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BY,30.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.0086355785837651,0.0121654501216545,0.0176337992656963,10,TRAD_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BN,30.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BN,30.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.006908462867012,0.0097323600973236,0.0176337992656963,10,COVER_G_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,10,COVER_G_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,COVER_G_BN,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BY,30.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BY,30.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.0086355785837651,0.0121654501216545,0.0176337992656963,5,TRAD_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BN,30.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BN,30.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.006908462867012,0.0097323600973236,0.0176337992656963,5,COVER_G_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,5,COVER_G_BY,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,COVER_G_BN,30.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BY,40.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BY,40.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BY,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BN,40.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BN,40.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BN,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,COVER_G_BY,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,COVER_G_BN,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BY,40.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BY,40.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BY,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BN,40.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BN,40.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BN,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,COVER_G_BY,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,COVER_G_BN,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BY,40.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BY,40.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BY,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BN,40.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BN,40.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BN,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,COVER_G_BY,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,COVER_G_BN,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BY,40.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BY,40.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BY,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BN,40.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BN,40.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BN,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,COVER_G_BY,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,COVER_G_BN,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BY,40.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BY,40.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BY,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BN,40.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BN,40.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BN,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,COVER_G_BY,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,COVER_G_BN,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BY,40.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BY,40.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BY,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BN,40.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BN,40.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BN,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,COVER_G_BY,40.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,COVER_G_BN,40.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BY,50.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.0086355785837651,0.0121654501216545,0.0176337992656963,-1,TRAD_BY,50.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.0086355785837651,0.0121654501216545,0.0180357923495009,-1,TRAD_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BN,50.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.006908462867012,0.0097323600973236,0.0176337992656963,-1,COVER_G_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,-1,COVER_G_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,COVER_G_BN,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BY,50.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.0086355785837651,0.0121654501216545,0.0176337992656963,25,TRAD_BY,50.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.0086355785837651,0.0121654501216545,0.0180357923495009,25,TRAD_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BN,50.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.006908462867012,0.0097323600973236,0.0176337992656963,25,COVER_G_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,25,COVER_G_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,COVER_G_BN,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BY,50.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.0086355785837651,0.0121654501216545,0.0176337992656963,20,TRAD_BY,50.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.0086355785837651,0.0121654501216545,0.0180357923495009,20,TRAD_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BN,50.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.006908462867012,0.0097323600973236,0.0176337992656963,20,COVER_G_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,20,COVER_G_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,COVER_G_BN,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BY,50.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.0086355785837651,0.0121654501216545,0.0176337992656963,15,TRAD_BY,50.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.0086355785837651,0.0121654501216545,0.0180357923495009,15,TRAD_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BN,50.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.006908462867012,0.0097323600973236,0.0176337992656963,15,COVER_G_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,15,COVER_G_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,COVER_G_BN,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BY,50.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.0086355785837651,0.0121654501216545,0.0176337992656963,10,TRAD_BY,50.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.0086355785837651,0.0121654501216545,0.0180357923495009,10,TRAD_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BN,50.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.006908462867012,0.0097323600973236,0.0176337992656963,10,COVER_G_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,10,COVER_G_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,COVER_G_BN,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BY,50.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.0086355785837651,0.0121654501216545,0.0176337992656963,5,TRAD_BY,50.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.0086355785837651,0.0121654501216545,0.0180357923495009,5,TRAD_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BN,50.0
+>56_executive-managerial_Long_Drama,>56_executive-managerial_Long_Drama,0.006908462867012,0.0097323600973236,0.0176337992656963,5,COVER_G_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,5,COVER_G_BY,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,COVER_G_BN,50.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BY,60.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BY,60.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.0086355785837651,0.0121654501216545,0.0180357923495009,-1,TRAD_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BN,60.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BN,60.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,-1,COVER_G_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,-1,COVER_G_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,COVER_G_BN,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BY,60.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BY,60.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.0086355785837651,0.0121654501216545,0.0180357923495009,25,TRAD_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BN,60.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BN,60.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,25,COVER_G_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,25,COVER_G_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,COVER_G_BN,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BY,60.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BY,60.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.0086355785837651,0.0121654501216545,0.0180357923495009,20,TRAD_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BN,60.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BN,60.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,20,COVER_G_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,20,COVER_G_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,COVER_G_BN,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BY,60.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BY,60.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.0086355785837651,0.0121654501216545,0.0180357923495009,15,TRAD_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BN,60.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BN,60.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,15,COVER_G_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,15,COVER_G_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,COVER_G_BN,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BY,60.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BY,60.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.0086355785837651,0.0121654501216545,0.0180357923495009,10,TRAD_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BN,60.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BN,60.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,10,COVER_G_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,10,COVER_G_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,COVER_G_BN,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BY,60.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BY,60.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.0086355785837651,0.0121654501216545,0.0180357923495009,5,TRAD_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BN,60.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BN,60.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,5,COVER_G_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,5,COVER_G_BY,60.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,COVER_G_BN,60.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BY,70.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BY,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BN,70.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BN,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,COVER_G_BY,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,COVER_G_BN,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BY,70.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BY,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BN,70.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BN,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,COVER_G_BY,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,COVER_G_BN,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BY,70.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BY,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BN,70.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BN,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,COVER_G_BY,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,COVER_G_BN,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BY,70.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BY,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BN,70.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BN,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,COVER_G_BY,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,COVER_G_BN,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BY,70.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BY,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BN,70.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BN,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,COVER_G_BY,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,COVER_G_BN,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BY,70.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BY,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BN,70.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BN,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,COVER_G_BY,70.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,COVER_G_BN,70.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BY,80.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BY,80.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BN,80.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BN,80.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BN,80.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,-1,COVER_G_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,-1,COVER_G_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,COVER_G_BN,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BY,80.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BY,80.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BN,80.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BN,80.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BN,80.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,25,COVER_G_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,25,COVER_G_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,COVER_G_BN,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BY,80.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BY,80.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BN,80.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BN,80.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BN,80.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,20,COVER_G_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,20,COVER_G_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,COVER_G_BN,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BY,80.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BY,80.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BN,80.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BN,80.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BN,80.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,15,COVER_G_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,15,COVER_G_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,COVER_G_BN,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BY,80.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BY,80.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BN,80.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BN,80.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BN,80.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,10,COVER_G_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,10,COVER_G_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,COVER_G_BN,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BY,80.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BY,80.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BN,80.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BN,80.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BN,80.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,5,COVER_G_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,5,COVER_G_BY,80.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,COVER_G_BN,80.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BY,90.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BY,90.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BN,90.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BN,90.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BN,90.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,-1,COVER_G_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,-1,COVER_G_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,COVER_G_BN,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BY,90.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BY,90.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BN,90.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BN,90.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BN,90.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,25,COVER_G_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,25,COVER_G_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,COVER_G_BN,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BY,90.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BY,90.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BN,90.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BN,90.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BN,90.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,20,COVER_G_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,20,COVER_G_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,COVER_G_BN,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BY,90.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BY,90.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BN,90.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BN,90.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BN,90.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,15,COVER_G_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,15,COVER_G_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,COVER_G_BN,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BY,90.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BY,90.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BN,90.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BN,90.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BN,90.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,10,COVER_G_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,10,COVER_G_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,COVER_G_BN,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BY,90.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BY,90.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BN,90.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BN,90.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BN,90.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,5,COVER_G_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,5,COVER_G_BY,90.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,COVER_G_BN,90.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BY,100.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BY,100.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BY,100.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,-1,TRAD_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BN,100.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,TRAD_BN,100.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,-1,COVER_G_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,-1,COVER_G_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,-1,COVER_G_BN,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BY,100.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BY,100.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BY,100.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,25,TRAD_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BN,100.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,TRAD_BN,100.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,25,COVER_G_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,25,COVER_G_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,25,COVER_G_BN,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BY,100.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BY,100.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BY,100.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,20,TRAD_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BN,100.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,TRAD_BN,100.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,20,COVER_G_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,20,COVER_G_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,20,COVER_G_BN,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BY,100.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BY,100.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BY,100.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,15,TRAD_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BN,100.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,TRAD_BN,100.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,15,COVER_G_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,15,COVER_G_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,15,COVER_G_BN,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BY,100.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BY,100.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BY,100.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,10,TRAD_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BN,100.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,TRAD_BN,100.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,10,COVER_G_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,10,COVER_G_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,10,COVER_G_BN,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BY,100.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BY,100.0
+35-44_college-grad student_Long_Thriller,35-44_college-grad student_Long_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BY,100.0
+35-44_college-grad student_Thriller,35-44_college-grad student_Thriller,0.001727115716753,0.0024330900243309,0.0090931926074866,5,TRAD_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BN,100.0
+35-44_college-grad student_Long_90's_Thriller,35-44_college-grad student_Long_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,TRAD_BN,100.0
+>56_executive-managerial_Drama,>56_executive-managerial_Drama,0.006908462867012,0.0097323600973236,0.0180357923495009,5,COVER_G_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.0086355785837651,0.0121654501216545,0.0020092477866288,5,COVER_G_BY,100.0
+35-44_college-grad student_90's_Thriller,35-44_college-grad student_90's_Thriller,0.001727115716753,0.0024330900243309,0.0020092477866288,5,COVER_G_BN,100.0

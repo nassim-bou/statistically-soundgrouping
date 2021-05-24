@@ -1,0 +1,12 @@
+ dataset = MovieLens
+ alphas = 0.05
+ support = 10
+ dimension = rating
+ grouping_type = [['gender']]
+ grouping_value = [['M']]
+ agg_type = mean
+ test_args = ['Paired']
+ periods_start = [datetime.datetime(2001, 1, 1, 0, 0), datetime.datetime(2001, 3, 1, 0, 0)]
+ period_arg = [3]
+ top_n=[-1, 25, 20, 15, 10, 5]
+ period_type=time

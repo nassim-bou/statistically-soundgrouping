@@ -1,0 +1,12 @@
+ dataset = MovieLens
+ alphas = 0.05
+ support = 15
+ dimension = rating
+ grouping_type = [['genre'], ['genre']]
+ grouping_value = [['Comedy'], ['Comedy']]
+ agg_type = variance
+ test_args = ['One-Sample', 1]
+ periods_start = [datetime.datetime(2000, 1, 1, 0, 0)]
+ period_arg = [12]
+ top_n=[-1, 25, 20, 15, 10, 5]
+ period_type=time

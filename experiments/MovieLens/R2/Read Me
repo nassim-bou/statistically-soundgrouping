@@ -1,4 +1,4 @@
-Request of R1 : Female groups whose rating mean is lower than Male groups within the same period
+Request of R2 : Female groups whose rating mean is lower than Male groups within the same period
 
 File "result_group_descriptions.csv" contains resulted group descriptions for all algorithms and values of samples,n.
 File "result_statistics.csv" contains different statistic results of all algorithms (Table 5 in the paper).

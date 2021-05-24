@@ -1,0 +1,12 @@
+ dataset = MovieLens
+ alphas = 0.05
+ support = 20
+ dimension = rating
+ grouping_type = [['genre'], ['genre']]
+ grouping_value = [['Drama'], ['Drama']]
+ agg_type = distribution
+ test_args = ['Two-Samples']
+ periods_start = [datetime.datetime(2001, 6, 20, 0, 0), datetime.datetime(2001, 6, 20, 0, 0)]
+ period_arg = [3]
+ top_n=[-1, 25, 20, 15, 10, 5]
+ period_type=time

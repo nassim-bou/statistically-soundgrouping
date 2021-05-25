@@ -1,0 +1,12 @@
+ dataset = Tafeng
+ alphas = 0.05
+ support = 20
+ dimension = rating
+ grouping_type = [['age'], ['age']]
+ grouping_value = [['45-49'], ['35-39']]
+ agg_type = mean
+ test_args = ['Two-Samples']
+ periods_start = [2]
+ period_arg = [50000]
+ top_n=[-1, 25, 20, 15, 10, 5]
+ period_type=point

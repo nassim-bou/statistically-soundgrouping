@@ -1,0 +1,6 @@
+Request of R5 : Group pairs whose ratingv ariance for 70’s movies differs in the Spring
+
+File "result_group_descriptions.csv" contains resulted group descriptions for all algorithms and values of samples,n.
+File "result_statistics.csv" contains different statistic results of all algorithms (Table 5 in the paper).
+File "p_values.csv" contains all independant results.
+File "parameters" contains the value of different parameters.

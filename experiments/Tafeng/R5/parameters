@@ -1,0 +1,12 @@
+ dataset = Tafeng
+ alphas = 0.05
+ support = 20
+ dimension = rating
+ grouping_type = [['location'], ['location']]
+ grouping_value = [['221'], ['221']]
+ agg_type = variance
+ test_args = ['Two-Samples', 2]
+ periods_start = [2]
+ period_arg = [20000]
+ top_n=[-1, 25, 20, 15, 10, 5]
+ period_type=point

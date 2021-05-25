@@ -1,0 +1,12 @@
+ dataset = Tafeng
+ alphas = 0.05
+ support = 20
+ dimension = rating
+ grouping_type = [['genre'], ['genre'], ['genre']]
+ grouping_value = [['100205'], ['100205'], ['100205']]
+ agg_type = anova
+ test_args = ['Anova']
+ periods_start = [3]
+ period_arg = [50000]
+ top_n=[-1, 25, 20, 15, 10, 5]
+ period_type=point

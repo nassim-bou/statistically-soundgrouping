@@ -1,6 +1,6 @@
 Request of R1 : Student groups" whose rating mean is greater than 3.5
 
 File "result_group_descriptions.csv" contains resulted group descriptions for all algorithms and values of samples,n.
-File "result_statistics.csv" contains different statistic results of all algorithms (Table 5 in the paper).
+File "result_statistics.csv" contains different statistic results of all algorithms (Table 6 in the paper).
 File "p_values.csv" contains all independant results.
 File "parameters" contains the value of different parameters.

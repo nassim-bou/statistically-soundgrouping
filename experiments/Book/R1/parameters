@@ -1,0 +1,12 @@
+ dataset = Book
+ alphas = 0.05
+ support = 10
+ dimension = rating
+ grouping_type = [['age'], ['age']]
+ grouping_value = [['25-34'], ['25-34']]
+ agg_type = mean
+ test_args = ['One-Sample', 4]
+ periods_start = [1]
+ period_arg = [100000]
+ top_n=[-1, 25, 20, 15, 10, 5]
+ period_type=point

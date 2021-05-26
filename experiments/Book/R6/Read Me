@@ -1,0 +1,6 @@
+Request of R6 : Groups whose rating variance is greater than 0.5
+
+File "result_group_descriptions.csv" contains resulted group descriptions for all algorithms and values of samples,n.
+File "result_statistics.csv" contains different statistic results of all algorithms.
+File "p_values.csv" contains all independant results.
+File "parameters" contains the value of different parameters.

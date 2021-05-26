@@ -1,0 +1,12 @@
+ dataset = Book
+ alphas = 0.05
+ support = 10
+ dimension = rating
+ grouping_type = [['year'], ['year']]
+ grouping_value = [["90's"], ["90's"]]
+ agg_type = variance
+ test_args = ['Two-Samples']
+ periods_start = [2]
+ period_arg = [30000]
+ top_n=[-1, 25, 20, 15, 10, 5]
+ period_type=point

@@ -1,0 +1,12 @@
+ dataset = Book
+ alphas = 0.05
+ support = 10
+ dimension = rating
+ grouping_type = [[''], ['']]
+ grouping_value = [[''], ['']]
+ agg_type = variance
+ test_args = ['One-Sample', 0.5]
+ periods_start = [1]
+ period_arg = [500000]
+ top_n=[-1, 25, 20, 15, 10, 5]
+ period_type=point

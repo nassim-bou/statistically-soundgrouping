@@ -1,0 +1,10 @@
+grp1,grp1_size,grp2,grp2_size,grp3,grp3_size,p-value
+germany_2000's,31,australia,36,usa_80's,142,5.06257987414099e-07
+united kingdom_2000's,38,netherlands,32,usa_80's,142,1.5906736396653815e-07
+canada_2000's,69,netherlands,32,usa_80's,142,0.015576064584171066
+germany_2000's,31,netherlands,32,usa_80's,142,8.077895902611215e-06
+germany_90's,28,brazil,21,australia,29,0.0019062726962527702
+united kingdom_2000's,38,australia,36,usa_80's,142,1.3175554210273287e-08
+usa_80's,181,canada,184,canada,186,1.6159716101667628e-13
+canada_2000's,69,australia,36,usa_80's,142,0.0003668933326874783
+germany_90's,28,brazil,21,united kingdom,25,0.021874413169800228

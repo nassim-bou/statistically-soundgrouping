@@ -1,0 +1,12 @@
+ dataset = Book
+ alphas = 0.05
+ support = 20
+ dimension = rating
+ grouping_type = [['age'], ['age'], ['age']]
+ grouping_value = [['45-49'], ['45-49'], ['45-49']]
+ agg_type = anova
+ test_args = ['Anova']
+ periods_start = [3]
+ period_arg = [30000]
+ top_n=[-1, 25, 20, 15, 10, 5]
+ period_type=point

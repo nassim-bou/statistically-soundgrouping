@@ -11,8 +11,24 @@ Before you begin, ensure you have met the following requirements:
 
 ## Running
 
-- To run the data, go to ```source_code/notebooks``` and run jupyter notebook 
-- Use ```Run Experiments``` to run experiments with the predefined or custom parameters
+- To run the data, go to ```source_code/notebooks``` and run `Run_Experiments.py`:
+    * dataset : string - Name of the Dataset
+    * alphas : float - Threshold of p-value
+    * support : integer - Minimum number of points in a group
+    * dimension : string - variable used by aggregate function
+    * grouping_type : list of lists - items or users features for clustering. Each sub-list contains features of a period.
+    * grouping_value : list of lists  - values of clustering features. Each sub-list contains the values of the corresponding the features in grouping_type.
+    * agg_type : string - Aggregation function
+    * test_args : list - [Type of test (one sample, two samples ...), Value for One Sample]
+    * periods_start : list of datetime - Datetime of starting of each period
+    * period_arg : list of integer - [Number of months,Number of days]
+    * top_ns : list of integer- List of number of results (n)
+    * period_type : string - Time_Based ('time')
+    * num_hyps : list of float - Percentages of samples
+    * r : string - Type of request (Ri)
+    * methods : list of integer - List of method {0:'TRAD',1:'COVER_G',4:'COVER_⍺',5:'β-Farsighted',6:'γ-Fixed',7:'ẟ Hopeful', 8:'Ɛ-Hybrid',9:'Ψ-Support'}
+    
+- Use ```graphs.ipynb``` to generate the different graphs presented in the paper.
  
 
 ## Contributing

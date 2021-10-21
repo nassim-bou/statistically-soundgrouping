@@ -26,7 +26,7 @@ Before you begin, ensure you have met the following requirements:
     * period_type : string - Time_Based ('time')
     * num_hyps : list of float - Percentages of samples
     * r : string - Type of request (Ri)
-    * methods : list of integer - List of method {0:'TRAD',1:'COVER_G',4:'COVER_⍺',5:'β-Farsighted',6:'γ-Fixed',7:'ẟ Hopeful', 8:'Ɛ-Hybrid',9:'Ψ-Support'}
+    * methods : list of integer - List of method {0:TRAD, 1:COVER_G ,4:COVER_⍺, 5:β-Farsighted, 6:γ-Fixed, 7:ẟ Hopeful, 8:Ɛ-Hybrid, 9:Ψ-Support}
     
 - Use ```graphs.ipynb``` to generate the different graphs presented in the paper.
  

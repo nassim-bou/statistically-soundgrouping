@@ -1,6 +1,5 @@
 Request of R4 : Group triples whose rating mean for 80’smovies differs in a 3-week period
 
-File "result_group_descriptions.csv" contains resulted group descriptions for all algorithms and values of samples,n.
-File "result_statistics.csv" contains different statistic results of all algorithms (Table 6 in the paper).
-File "p_values.csv" contains all independant results.
 File "parameters" contains the value of different parameters.
+
+Figures of FDR and Power are results of a TOP-15

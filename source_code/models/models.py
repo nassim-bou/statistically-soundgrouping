@@ -175,7 +175,7 @@ def get_dataset_yelp(article_id):
     return df,features2values
 
 def get_dataset_books(article_id):
-    users = pd.read_csv(f'{ROOT_DIR}/datasets/Book/BX-Users.csv',delimiter=';')
+    users = pd.read_csv(f'{ROOT_DIR}/datasets/Book/BX-Users.csv',delimiter=';', encoding='latin-1')
     users = users[~users.Age.isna()]
 
     users.Age = users.Age.apply(lambda x : "<18" if x < 18 else "18-24" if x < 24 else "25-34" if x < 34 else "35-44" if x < 44 \
@@ -188,13 +188,13 @@ def get_dataset_books(article_id):
         for value in v:
             users = users.replace(v,k)
 
-    books = pd.read_csv(f'{ROOT_DIR}/datasets/Book/BX-Books.csv',delimiter=';',error_bad_lines=False)
+    books = pd.read_csv(f'{ROOT_DIR}/datasets/Book/BX-Books.csv',delimiter=';', encoding='latin-1' ,error_bad_lines=False)
     books = books.drop(columns=['Image-URL-S','Image-URL-M','Image-URL-L'])
     books = books[~books['Year-Of-Publication'].isin(['Gallimard','DK Publishing Inc'])]
     books['Year-Of-Publication'] = pd.to_numeric(books['Year-Of-Publication'] )
     books = books[(books['Year-Of-Publication']<2022) & (books['Year-Of-Publication'] != 0)]
 
-    ratings = pd.read_csv(f'{ROOT_DIR}/datasets/Book/BX-Book-Ratings.csv',delimiter=';')
+    ratings = pd.read_csv(f'{ROOT_DIR}/datasets/Book/BX-Book-Ratings.csv',delimiter=';', encoding='latin-1')
     ratings = ratings.replace(0,5)
 
     ratings = pd.merge(ratings,users)

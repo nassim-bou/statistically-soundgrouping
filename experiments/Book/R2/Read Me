@@ -1,6 +1,3 @@
 Request of R2 : american groups whose rating mean is lower than british groups within the same period
 
-File "result_group_descriptions.csv" contains resulted group descriptions for all algorithms and values of samples,n.
-File "result_statistics.csv" contains different statistic results of all algorithms.
-File "p_values.csv" contains all independant results.
 File "parameters" contains the value of different parameters.

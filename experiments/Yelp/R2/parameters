@@ -1,0 +1,13 @@
+dataset = 'Yelp'
+alphas = 0.05
+support = 20
+dimension = 'rating'
+grouping_type = [['gender'], ['gender']]
+grouping_value = [['F'], ['M']]
+agg_type = 'mean'
+test_args = ['Two-Samples']
+periods_start = [datetime.datetime(2018, 6, 1, 0, 0), datetime.datetime(2018, 6, 1, 0, 0)]
+period_arg = [3]
+top_ns=[5, 10, 15, 20, 50, 100, 500, -1]
+period_type='time'
+num_hyps = [0.1, 0.3, 0.5, 0.7, 0.9, 1]

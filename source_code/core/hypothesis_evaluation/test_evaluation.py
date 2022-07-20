@@ -5,9 +5,10 @@ import itertools
 from functools import partial
 from multiprocessing import Pool
 import sys
+import random
 
 from scipy import stats
-from scipy.stats import chi2_contingency, kstest, f_oneway
+from scipy.stats import chi2_contingency, kstest, f_oneway, pearsonr
 from statsmodels.stats.multitest import fdrcorrection
 from statsmodels.stats.weightstats import ztest
 
@@ -31,9 +32,9 @@ class StatisticalTestHandler:
 
     def distribution_evaluation_mult(self, cases, test_arg, segmentation_type, segmentation_arg):
         if test_arg == "One-Sample":
-            test_func = self.one_sample_dist_test
+            test_func = self.one_sample_indep
         elif test_arg == "Two-Samples":
-            test_func = self.two_sample_dist_test
+            test_func = self.two_sample_indep
         else:
             raise NotImplementedError("Distribution test type not implemented")
         self.test_arg = test_arg
@@ -51,11 +52,11 @@ class StatisticalTestHandler:
 
     def mean_evaluation_mult(self, cases, test_arg, segmentation_type, segmentation_arg):
         if test_arg == "One-Sample":
-            test_func = self.one_sample_mean_test
+            test_func = self.one_sample_indep
         elif test_arg == "Two-Samples":
-            test_func = self.two_sample_mean_test
+            test_func = self.two_sample_indep
         elif test_arg == "Paired":
-            test_func = self.paired_mean_test
+            test_func = self.one_sample_indep
         elif test_arg[0] == "z_test":
             test_func = self.z_test
         else:
@@ -75,9 +76,9 @@ class StatisticalTestHandler:
 
     def variance_evaluation_mult(self, cases, test_arg, segmentation_type, segmentation_arg):
         if test_arg == "Two-Samples":
-            test_func = self.F_test
-        if test_arg == "One-Sample":
-            test_func = self.one_sample_variance_test
+            test_func = self.two_sample_indep
+        elif test_arg == "One-Sample":
+            test_func = self.one_sample_indep
         else:
             raise NotImplementedError("Other Variance test is not implemented")
 
@@ -95,7 +96,7 @@ class StatisticalTestHandler:
         return res
 
     def anova_evaluation_mult(self, cases, test_arg, segmentation_type, segmentation_arg):
-        f = partial(compute_test_parallel, test_func=self.anova, seg_type=segmentation_type, seg_arg=segmentation_arg)
+        f = partial(compute_test_parallel, test_func=self.anova_indep, seg_type=segmentation_type, seg_arg=segmentation_arg)
 
         pool = Pool()
         res = pool.map(f, cases)
@@ -136,15 +137,16 @@ class StatisticalTestHandler:
         else:
             raise NotImplementedError("Distribution test type not implemented")
         self.test_arg = test_arg
-
-
-        f = partial(compute_test_parallel, test_func=test_func, seg_type=segmentation_type, seg_arg=segmentation_arg)
+        
         res = []
         for case in cases:
-            res.append( f(case) )
-        
-        res = pd.DataFrame(res, columns=["grp1", "grp1_members", "grp1_size", "grp2", "grp2_members", "grp2_size", "p-value", "chi-squared test"])
-        res = res[~res["p-value"].isna()]
+            res.append( test_func(case[0], case[1], segmentation_type) )
+
+        res = pd.DataFrame(res, columns=["p-value", "chi-squared test"])
+
+        ll = res[~res["p-value"].isna()]
+        ll = ll[ ll["p-value"] < 0.05 ]
+        print( len(ll) )
 
         return res
 
@@ -159,62 +161,47 @@ class StatisticalTestHandler:
             test_func = self.z_test
         else:
             raise NotImplementedError("Mean test type not implemented")
+        
         self.test_arg = test_arg
 
-        f = partial(compute_test_parallel, test_func=test_func, seg_type=segmentation_type, seg_arg=segmentation_arg)  
-
-        '''
-        pool = Pool()      
-        res = pool.map(f, cases)
-        pool.close()
-        '''
         res = []
         for case in cases:
-            res.append( f(case) )
+            res.append( test_func(case[0], case[1], segmentation_type) )
 
-        res = pd.DataFrame(res, columns=["grp1", "grp1_members", "grp1_size", "grp2", "grp2_members", "grp2_size", "p-value", "chi-squared test"])
-        res = res[~res["p-value"].isna()]
+        res = pd.DataFrame(res, columns=["p-value", "chi-squared test"])
 
         return res
 
     def variance_evaluation(self, cases, test_arg, segmentation_type, segmentation_arg):
         if test_arg == "Two-Samples":
             test_func = self.F_test
-        if test_arg == "One-Sample":
+        elif test_arg == "One-Sample":
             test_func = self.one_sample_variance_test
         else:
             raise NotImplementedError("Other Variance test is not implemented")
 
         self.test_arg = test_arg
 
-        f = partial(compute_test_parallel, test_func=test_func, seg_type=segmentation_type, seg_arg=segmentation_arg)
-
         res = []
         for case in cases:
-            res.append( f(case) )
+            res.append( test_func(case[0], case[1], segmentation_type) )
 
-        res = pd.DataFrame(res, columns=["grp1", "grp1_members", "grp1_size", "grp2", "grp2_members", "grp2_size", "p-value", "chi-squared test"])
-        res = res[~res["p-value"].isna()]
+        res = pd.DataFrame(res, columns=["p-value", "chi-squared test"])
 
         return res
 
     def anova_evaluation(self, cases, test_arg, segmentation_type, segmentation_arg):
-        f = partial(compute_test_parallel, test_func=self.anova, seg_type=segmentation_type, seg_arg=segmentation_arg)
-
+        
         res = []
         for case in cases:
-            res.append( f(case) )
+            res.append( self.anova(case, segmentation_type) )
 
         len_groups = len(cases[0])
         
         columns = []
-        for i in range(len_groups):
-            columns = columns + [f"grp{i+1}", f"grp{i+1}_members", f"grp{i+1}_size"]
-
         columns = columns + [ "p-value"] + [ f"chi-squared test {i}" for i in range(len_groups)]
 
         res = pd.DataFrame(res, columns=columns)
-        res = res[~res["p-value"].isna()]
 
         return res
 
@@ -243,13 +230,10 @@ class StatisticalTestHandler:
         else:
             raise NotImplementedError("Mean test type not implemented")
         self.test_arg = test_arg
-
-        f = partial(compute_test_parallel, test_func=test_func, seg_type=segmentation_type, seg_arg=segmentation_arg)
-        res = f(cases)
-
-        res = pd.DataFrame(res, index=["grp1", "grp1_members", "grp1_size", "grp2", "grp2_members", "grp2_size", "p-value", "chi-squared test"]).T
+        
+        res = test_func(cases[0], cases[1], segmentation_type)
+        res = pd.DataFrame([res], columns=["p-value", "chi-squared test"])
         res = res[~res["p-value"].isna()]
-        res = res[res["chi-squared test"] > THRESHOLD_INDEPENDENT_TEST]
 
         return res
 
@@ -261,46 +245,36 @@ class StatisticalTestHandler:
         else:
             raise NotImplementedError("Distribution test type not implemented")
         self.test_arg = test_arg
-
-        f = partial(compute_test_parallel, test_func=test_func, seg_type=segmentation_type, seg_arg=segmentation_arg)
-        res = f(cases)
-
-        res = pd.DataFrame(res, index=["grp1", "grp1_members", "grp1_size", "grp2", "grp2_members", "grp2_size", "p-value", "chi-squared test"]).T
+        
+        res = test_func(cases[0], cases[1], segmentation_type)
+        res = pd.DataFrame([res], columns=["p-value", "chi-squared test"])
         res = res[~res["p-value"].isna()]
-        res = res[res["chi-squared test"] > THRESHOLD_INDEPENDENT_TEST]
-
+        
         return res
 
     def variance_one_evaluation(self, cases, test_arg, segmentation_type, segmentation_arg):
         if test_arg == "Two-Samples":
             test_func = self.F_test
-        if test_arg == "One-Sample":
+        elif test_arg == "One-Sample":
             test_func = self.one_sample_variance_test
         else:
             raise NotImplementedError("Other Variance test is not implemented")
 
         self.test_arg = test_arg
-
-        f = partial(compute_test_parallel, test_func=test_func, seg_type=segmentation_type, seg_arg=segmentation_arg)
-        res = f(cases)
-
-        res = pd.DataFrame(res, index=["grp1", "grp1_members", "grp1_size", "grp2", "grp2_members", "grp2_size", "p-value", "chi-squared test"]).T
+        
+        res = test_func(cases[0], cases[1], segmentation_type)
+        res = pd.DataFrame([res], columns=["p-value", "chi-squared test"])
         res = res[~res["p-value"].isna()]
-        res = res[res["chi-squared test"] > THRESHOLD_INDEPENDENT_TEST]
 
         return res
 
     def anova_one_evaluation(self, cases, test_arg, segmentation_type, segmentation_arg):
 
-        f = partial(compute_test_parallel, test_func=self.anova, seg_type=segmentation_type, seg_arg=segmentation_arg)
-        res = f(cases)
+        res = self.anova(cases, segmentation_type)
 
         len_groups = len(cases)
         
         columns = []
-        for i in range(len_groups):
-            columns = columns + [f"grp{i+1}", f"grp{i+1}_members", f"grp{i+1}_size"]
-
         columns = columns + [ "p-value"] + [ f"chi-squared test {i}" for i in range(len_groups)]
 
         l = len(res)
@@ -309,15 +283,59 @@ class StatisticalTestHandler:
         res = pd.DataFrame(res, columns=columns)
         res = res[~res["p-value"].isna()]
 
-        for i in range(len_groups):
-            res = res[res[f"chi-squared test {i}"] > THRESHOLD_INDEPENDENT_TEST]
 
         return res
 
+    # INDEPENDANCE TEST
+    def one_sample_indep(self,i,j,segmentation_type):
+        return 0.001, 1
 
+    def two_sample_indep(self, i, j, segmentation_type):
+        values_1 = aggregate_values(i, segmentation_type)
+        values_2 = aggregate_values(j, segmentation_type)
+
+        t_normal = self.test_normal_distribution(values_1)
+        r_normal = self.test_normal_distribution(values_2)
+
+        if not (t_normal and r_normal):
+            values_1 = (values_1 - min(values_1)) / (max(values_1) - min(values_1))
+            values_2 = (values_2 - min(values_2)) / (max(values_2) - min(values_2))
+
+        contingency_df = self.generate_contingency_table(values_1, values_2)
+        stat, p, dof, expected = chi2_contingency(contingency_df)
+
+
+        return 0.001, p
+
+    def anova_indep(self,i, segmentation_type):
+        values_s = []
+        for v in i:
+            values_s.append( aggregate_values(v,segmentation_type) )
+        
+        t_normal = True
+        for v in values_s:
+            t_normal = t_normal and self.test_normal_distribution(v) 
+        
+        if not (t_normal):
+            for j in range(len(values_s)):
+                values_s[j] = (values_s[j] - min(values_s[j])) / (max(values_s[j]) - min(values_s[j]))
+
+        indep_cases = list(itertools.combinations(values_s,2))
+
+        indep_tests = []
+
+        for i in indep_cases:
+            contingency_df = self.generate_contingency_table(i[0], i[1])
+            stat, p, dof, expected = chi2_contingency(contingency_df)
+            indep_tests.append(p)
+            #indep_tests.append(1)
+
+        return [0.001,*indep_tests]
+
+    # P-VALUE TESTS
     def one_sample_mean_test(self, i, j, segmentation_type):
         values_1 = aggregate_values(i, segmentation_type)
-        return stats.ttest_1samp(values_1, j)[1], 1
+        return stats.ttest_1samp(values_1, float(j))[1], 1
 
     def one_sample_dist_test(self, i, j, segmentation_type):
         values_1 = aggregate_values(i, segmentation_type)
@@ -334,10 +352,7 @@ class StatisticalTestHandler:
             values_1 = (values_1 - min(values_1)) / (max(values_1) - min(values_1))
             values_2 = (values_2 - min(values_2)) / (max(values_2) - min(values_2))
 
-        contingency_df = self.generate_contingency_table(values_1, values_2)
-        stat, p, dof, expected = chi2_contingency(contingency_df)
-
-        return stats.ttest_ind(values_1, values_2, equal_var=False, alternative='less')[1], p
+        return stats.ttest_ind(values_1, values_2, equal_var=False)[1], 1
 
     def paired_mean_test(self, i, j, segmentation_type):
         values_1 = aggregate_values(i,segmentation_type)
@@ -350,9 +365,6 @@ class StatisticalTestHandler:
             values_1 = (values_1 - min(values_1)) / (max(values_1) - min(values_1))
             values_2 = (values_2 - min(values_2)) / (max(values_2) - min(values_2))
 
-        contingency_df = self.generate_contingency_table(values_1, values_2)
-        stat, p, dof, expected = chi2_contingency(contingency_df)
-
         if len(values_1)==len(values_2):
             k = 1
         else:
@@ -361,7 +373,7 @@ class StatisticalTestHandler:
             else:
                 values_2 = values_2[:len(values_1)]
 
-        return stats.ttest_rel(values_1, values_2)[1], p
+        return stats.ttest_rel(values_1, values_2)[1], 1
 
     def two_sample_dist_test(self, i, j, segmentation_type):
         values_1 = aggregate_values(i,segmentation_type)
@@ -374,14 +386,12 @@ class StatisticalTestHandler:
             values_1 = (values_1 - min(values_1)) / (max(values_1) - min(values_1))
             values_2 = (values_2 - min(values_2)) / (max(values_2) - min(values_2))
 
-        contingency_df = self.generate_contingency_table(values_1, values_2)
-        stat, p, dof, expected = chi2_contingency(contingency_df)
-
-        return kstest(values_1, values_2)[1], p
+        return kstest(values_1, values_2)[1], 1
 
     def z_test(self, i, j, freq="D"):
         values_1 = aggregate_values(df=i, freq=freq) / self.test_arg[1]
         values_2 = aggregate_values(df=j, freq=freq) / self.test_arg[1]
+        
         t_normal = self.test_normal_distribution(values_1)
         r_normal = self.test_normal_distribution(values_2)
 
@@ -389,10 +399,7 @@ class StatisticalTestHandler:
             values_1 = (values_1 - min(values_1)) / (max(values_1) - min(values_1))
             values_2 = (values_2 - min(values_2)) / (max(values_2) - min(values_2))
 
-        contingency_df = self.generate_contingency_table(values_1, values_2)
-        stat, p, dof, expected = chi2_contingency(contingency_df)
-
-        return ztest(values_1, values_2)[1], p
+        return ztest(values_1, values_2)[1], 1
     
     def F_test(self, i, j, segmentation_type):
         values_1 = aggregate_values(i,segmentation_type)
@@ -405,14 +412,11 @@ class StatisticalTestHandler:
             values_1 = (values_1 - min(values_1)) / (max(values_1) - min(values_1))
             values_2 = (values_2 - min(values_2)) / (max(values_2) - min(values_2))
 
-        contingency_df = self.generate_contingency_table(values_1, values_2)
-        stat, p, dof, expected = chi2_contingency(contingency_df)
-
         F = statistics.variance(values_1) / statistics.variance(values_2)
         df1 = len(values_1)-1
         df2 = len(values_2)-1
         
-        return stats.f.sf(F, df1, df2), p
+        return stats.f.sf(F, df1, df2), 1
 
     def one_sample_variance_test(self, i, j, segmentation_type):
         values_1 = aggregate_values(i, segmentation_type)
@@ -434,23 +438,17 @@ class StatisticalTestHandler:
                 values_s[j] = (values_s[j] - min(values_s[j])) / (max(values_s[j]) - min(values_s[j]))
 
         indep_cases = list(itertools.combinations(values_s,2))
+        indep_tests = [1 for i in indep_cases]
 
-        indep_tests = []
-
-        for i in indep_cases:
-            contingency_df = self.generate_contingency_table(i[0], i[1])
-            stat, p, dof, expected = chi2_contingency(contingency_df)
-            indep_tests.append(p)
-
-        return f_oneway(*values_s)[1],*indep_tests
+        return [f_oneway(*values_s)[1],*indep_tests]
 
     def test_normal_distribution(self, values_1, threshold_normal_dist=THRESHOLD_NORMAL_DIST):
         return len(values_1) >= 8 and stats.normaltest(values_1)[1] >= threshold_normal_dist
 
     def generate_contingency_table(self, values_1, values_2):
-        data = pd.DataFrame([values_1, values_2]).T.fillna(0).astype(bool)
-        return pd.DataFrame([data[0].value_counts(), data[1].value_counts()]).T #####ICI
 
+        data = pd.DataFrame([values_1, values_2]).T.fillna(0).astype(bool)
+        return pd.DataFrame([data[0].value_counts(), data[1].value_counts()]).T
 
 def aggregate_values(df, segmentation_type, freq="D", col="rating"):
     if segmentation_type is None:
@@ -469,16 +467,18 @@ def compute_test_parallel(args, test_func, seg_type, seg_arg):
         i = i[['cust_id','article_id','rating','purchase', 'transaction_date']]
 
         if (isinstance(j,int) == False) and (isinstance(j,str) == False) and (isinstance(j,float) == False) :
+            #Two samples
             j2 = j
             j = j[['cust_id','article_id','rating','purchase', 'transaction_date']]
             set_2_group = set(j.cust_id.unique())
             len_2_group = len(j)
         else:
+            #One sample
             j2 = j
             set_2_group = {}
             len_2_group = 0
 
-        return name_groups(i2), set(i.cust_id.unique()), len(i), name_groups(j2), set_2_group, len_2_group, *test_func(i, j, seg_type)
+        return [name_groups(i2), set(i.cust_id.unique()), len(i), name_groups(j2), set_2_group, len_2_group, *test_func(i, j, seg_type)]
     else: #ANOVA
         periods = args
 
@@ -488,5 +488,4 @@ def compute_test_parallel(args, test_func, seg_type, seg_arg):
         periods_2 = [ (name_groups(i), set(i.cust_id.unique()), len(i)) for i in periods_2]
         periods_2 = list(itertools.chain(*periods_2))
 
-        return *periods_2, *test_func(periods, seg_type)
-
+        return [*periods_2, *test_func(periods, seg_type)]

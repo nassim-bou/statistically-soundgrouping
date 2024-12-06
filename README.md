@@ -1,5 +1,4 @@
-Our work is a Framework for Statistically-Sound Group Testing,
-that combines coverage  and statistical testing to verify common hypotheses and return interpretable data groups.
+Our work is a Framework for Statistically-Sound Group Testing, that combines coverage  and statistical testing to verify common hypotheses and return interpretable user groups.
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
@@ -31,3 +30,18 @@ Before you begin, ensure you have met the following requirements:
 The execution will create results files in ```experiments\dataset\r\```.
 
 - Use ```graphs.ipynb``` to generate the different graphs presented in the paper using the results files in ```experiments\dataset\r\```.
+
+
+## Citation
+This work is published at the WWW '22: The ACM Web Conference 2022.
+
+@inproceedings{bouarour2022significance,
+  title={Significance and Coverage in Group Testing on the Social Web},
+  author={Bouarour, Nassim and Benouaret, Idir and Amer-Yahia, Sihem},
+  booktitle={Proceedings of the ACM Web Conference 2022},
+  pages={3052--3060},
+  year={2022}
+}
+
+
+

@@ -34,7 +34,7 @@ The execution will create results files in ```experiments\dataset\r\```.
 
 ## Citation
 This work is published at the WWW '22: The ACM Web Conference 2022.
-
+```
 @inproceedings{bouarour2022significance,
   title={Significance and Coverage in Group Testing on the Social Web},
   author={Bouarour, Nassim and Benouaret, Idir and Amer-Yahia, Sihem},
@@ -42,6 +42,7 @@ This work is published at the WWW '22: The ACM Web Conference 2022.
   pages={3052--3060},
   year={2022}
 }
+```
 
 
 

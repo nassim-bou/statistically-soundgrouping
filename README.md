@@ -33,7 +33,7 @@ The execution will create results files in ```experiments\dataset\r\```.
 
 
 ## Citation
-This work is published at the WWW '22: The ACM Web Conference 2022.
+This work was published at the WWW '22: The ACM Web Conference 2022.
 ```
 @inproceedings{bouarour2022significance,
   title={Significance and Coverage in Group Testing on the Social Web},
